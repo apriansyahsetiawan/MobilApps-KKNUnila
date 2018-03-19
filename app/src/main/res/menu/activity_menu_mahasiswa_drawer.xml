@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mhs_home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_view_1" />
+        <item
+            android:id="@+id/mhs_infokelompok"
+            android:checked="false"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="@string/nav_view_2" />
+        <item
+            android:id="@+id/mhs_pengumuman"
+            android:checked="false"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="@string/nav_view_3" />
+        <item
+            android:id="@+id/mhs_nilai"
+            android:checked="false"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="@string/nav_view_4" />
+        <item
+            android:id="@+id/mhs_laporan"
+            android:checked="false"
+            android:icon="@drawable/ic_create_black_24dp"
+            android:title="@string/nav_view_5" />
+    </group>
+    <item
+
+        android:id="@+id/navigasi2"
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/mhs_logout"
+                android:checked="false"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/nav_view_6" />
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="pernyataan">Demikian data ini saya buat dengan sebenarnya untuk dipergunakan sebagai syarat pendaftaran calon peserta KKN Tematik. Apabila ada data yang saya buat ternyata palsu, maka saya bersedia menerima sanksi sebagaimana mestinya.</string>
+    <string name="info">Berdasarkan hasil keputusan, Anda ditempatkan di :</string>
+    <string name="openDrawer">Drawer Dibuka</string>
+    <string name="closeDrawer">Drawer Ditutup</string>
+    <string name="permission_dialog">Accessing Location Permissions required</string>
+    <string name="go_to_permission_settings">Accessing Location Permissions required</string>
+
+    <string name="nav_view_1">Home</string>
+    <string name="nav_view_2">Info Penempatan</string>
+    <string name="nav_view_3">Info DPL</string>
+    <string name="nav_view_4">Lihat Nilai</string>
+    <string name="nav_view_5">Laporan Kegiatan</string>
+    <string name="nav_view_6">logout</string>
+    <string name="title_activity_menu_mahasiswa">MenuMahasiswa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/header"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/unila"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/unilablue" />
+
+    <TextView
+        android:id="@+id/kknUnila"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:shadowColor="@color/hitamtransparan"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1.5"
+        android:text="Aplikasi KKN Mahasiswa Universitas Lampung"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progresBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

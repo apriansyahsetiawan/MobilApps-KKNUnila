@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/header"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/unilablue" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="KKN Universitas Lampung"
+                    android:textSize="25sp"
+                    tools:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginTop="70dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="16dp">
+
+                    <LinearLayout
+                        android:id="@+id/bodi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/username"
+                            android:layout_width="280dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/header"
+                            android:hint="npm"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/darker_gray" />
+
+                        <EditText
+                            android:id="@+id/password"
+                            android:layout_width="280dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:backgroundTint="@color/header"
+                            android:hint="token"
+                            android:inputType="textPassword"
+                            android:textColor="@android:color/black"
+                            android:textColorHint="@android:color/darker_gray" />
+
+                        <com.andexert.library.RippleView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/btnMasuk"
+                                android:layout_width="280dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="30dp"
+                                android:background="@drawable/round"
+                                android:backgroundTint="@color/header"
+                                android:text="Masuk"
+                                android:textAllCaps="false"
+                                android:textSize="18sp" />
+
+                        </com.andexert.library.RippleView>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
